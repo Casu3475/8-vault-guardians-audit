@@ -23,7 +23,7 @@ contract VaultGuardianGovernor is Governor, GovernorCountingSimple, GovernorVote
     }
 
     // The following functions are overrides required by Solidity.
-
+    // ok 
     function quorum(uint256 blockNumber)
         public
         view
